@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    background-color: rgba(106, 30, 30, 0.614);
+    flex-direction: column;
+}
+
+.main {
+    height: 250px;
+    width: 400px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.712);
+    border-radius: 30px;
+
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+}
+
+select {
+    height: 20px;
+    margin-top: 18px;
+    border-radius: 30px;
+}
+
+i {
+    margin-top: 18px;
+}
+
+button {
+    background-color: rgb(170, 99, 237);
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+    text-align: center;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.buttondiv {
+    display: flex;
+    justify-content: center;
+}
